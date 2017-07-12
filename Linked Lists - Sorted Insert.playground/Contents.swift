@@ -5,6 +5,7 @@ class Node {
     init(_ data: Int) {
         self.data = data;
     }
+    
     convenience init(_ next: Node?, _ data: Int)
     {
         self.init(data)

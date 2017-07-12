@@ -71,7 +71,7 @@ func linkedListsEqual(first: Node?, second: Node?) -> Bool {
 import XCTest
 
 public struct TestRunner {
-    public init() { }
+    public init() {}
     
     public func runTests(testClass:AnyClass) {
         let tests = testClass as! XCTestCase.Type
